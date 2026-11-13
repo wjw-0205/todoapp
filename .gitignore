@@ -1,0 +1,31 @@
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+.env
+*.log
+local_settings.py
+
+# 虚拟环境（PythonAnywhere的虚拟环境在 .virtualenvs，不在项目里，这里可以保留）
+venv/
+env/
+
+# React / Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
